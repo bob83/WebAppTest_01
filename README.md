@@ -5,10 +5,9 @@ WebAppTest_01
 Bob Ciulla
 ## File List
 ------
-* Update.json
-* testdata.xlsx
-* RandomPost_multi.py
-* Libaray.py
+##packages 
+Faker
+WebAppTest.py
 #### This project is a simple  CLI module that can generate  dictionary test data using random data from Faker()  and Send that data as a POST to a Web sign-up form. The default Schema for JSON is 
 
 ```JS
