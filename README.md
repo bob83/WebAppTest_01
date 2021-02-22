@@ -9,7 +9,7 @@ Bob Ciulla
 * testdata.xlsx
 * RandomPost_multi.py
 * Libaray.py
-#### This project is a simple  CLI module that can generate JSON test data  and Send that data as a POST to a Web sign-up form. The default Schema for JSON is 
+#### This project is a simple  CLI module that can generate  dictionary test data using random data from Faker()  and Send that data as a POST to a Web sign-up form. The default Schema for JSON is 
 
 ```JS
 
@@ -20,23 +20,15 @@ Bob Ciulla
     "phone": 323-555-1234,
     "children": [
         {
-            "firstName": "Greg",
+            'child_first': "Greg",
+            'child_last':  "Brady
             "age": 10
-        },
-        {
-            "firstName": "Marcia",
-            "age": 8
         }
     ]
 ```
  
 
 ## Usage: 
-* WebAppTest -- p (port) default 8080
-*           -- f  (fqdn of webservice) default  "https://reqres.in/api/users"
-*           -- d (Xls data to use for Json) default 
-*           -- n (number of users) default 10
-*           -- c (children used in Json; yes, n) default n
-*           -- nc (number if children used in Json) default 2
+* WebAppTest 0 or 1. 0 for no child in post and 1 for adding a child in the post
            
  
