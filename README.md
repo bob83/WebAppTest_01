@@ -16,7 +16,7 @@ Faker
     "email": "mbrady@aol.com",
     "Address": ["11222 Dilling St , North Hollywood, CA 91602"],
     "phone": 323-555-1234,
-    "children": [
+    "children": 1 [
         {
             'child_first': "Greg",
             'child_last':  "Brady
