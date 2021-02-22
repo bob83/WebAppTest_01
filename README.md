@@ -27,6 +27,13 @@ Faker
  
 
 ## Usage: 
-* WebAppTest 0 or 1. 0 for no child in post and 1 for adding a child in the post
+* WebAppTest 0 or 1. 0 for no child in post and 1 for adding a child in the post. The script will assert if a response code other than a 201 is received
            
- 
+
+## To do
+add cli capability to change URL for api tool (easy)
+add default cli data to tool
+Fix to indent children in post 
+add docopt or other CLI data validation tool
+
+
