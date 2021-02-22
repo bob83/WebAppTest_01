@@ -32,6 +32,7 @@ Faker
 
 ## To do
 add cli capability to change URL for api tool (easy)
+iterate tru data to create x number of different requests. Where X is a cmd line agr for number if iterations
 add default cli data to tool
 Fix to indent children in post 
 add docopt or other CLI data validation tool
