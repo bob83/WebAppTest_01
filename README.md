@@ -4,10 +4,9 @@ WebAppTest_01
 ## Author and Contributor List
 Bob Ciulla
 ## File List
-------
-##packages 
-Faker
 WebAppTest.py
+## packages 
+Faker
 #### This project is a simple  CLI module that can generate  dictionary test data using random data from Faker()  and Send that data as a POST to a Web sign-up form. The default Schema for JSON is 
 
 ```JS
